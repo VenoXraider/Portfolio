@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCart - Your Tech Shopping Destination</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(145deg, #000000, #06284d, #450961);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(145deg, #000000, #06284d, #450961);
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        section {
+            margin: 2rem;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #007BFF;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .service {
+            flex: 0 1 30%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .featured-products,
+        .best-deals {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .product,
+        .deal {
+            flex: 0 1 30%;
+            padding: 20px;
+            background: linear-gradient(145deg, #000000, #06284d, #450961);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product:hover,
+        .deal:hover {
+            transform: scale(1.05);
+        }
+
+        .testimonial {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: linear-gradient(145deg, #000000, #06284d, #450961);
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form label,
+        form input,
+        form textarea {
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        form button {
+            background: linear-gradient(145deg, #000000, #06284d, #450961);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        form button:hover {
+            background: linear-gradient(145deg, #000000, #06284d, #450961);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to TechCart</h1>
+        <p>Your Ultimate Destination for Tech Shopping</p>
+    </header>
+
+    <section id="intro" class="intro">
+        <h2>Explore the Latest in Tech at TechCart</h2>
+        <p>
+            TechCart is your go-to destination for the latest and greatest in tech gadgets and electronics. From cutting-edge smartphones to state-of-the-art smart home devices, we curate a collection of tech products that cater to every tech enthusiast's needs.
+        </p>
+    </section>
+
+    <section id="featured-products" class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <h3>Smartphone X1</h3>
+            <p>The ultimate smartphone with advanced features and a sleek design.</p>
+            <p>Price: $999</p>
+        </div>
+        <div class="product">
+            <h3>Laptop Pro</h3>
+            <p>A powerful laptop for productivity and gaming on the go.</p>
+            <p>Price: $1499</p>
+        </div>
+        <div class="product">
+            <h3>Smart Speaker A2</h3>
+            <p>Immerse yourself in music with our premium smart speaker.</p>
+            <p>Price: $199</p>
+        </div>
+    </section>
+
+    <section id="best-deals" class="best-deals">
+        <h2>Best Deals of the Week</h2>
+        <div class="deal">
+            <h3>Special Bundle: Smartphone + Smartwatch</h

@@ -1,0 +1,305 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(145deg, #000000, #06284d, #450961);
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: #3113dd;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(145deg, #000000, #06284d, #450961);
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: #3113dd;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.left-pane {
+  flex: 40%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.right-pane {
+  flex: 60%;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+/* Reset some default styles */
+body,
+h1,
+h2,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* General styling for sections */
+.left-pane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(145deg, #000000, #06284d);
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture styling */
+.profile-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  background-color: #bbb; /* Placeholder color for the circular frame */
+  border-radius: 50%;
+  /* Add background image for your profile picture */
+  background-image: url("path-to-your-profile-picture.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 4px solid #fff; /* Border color for the picture */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Information and Skills styling */
+.info-section,
+.skills-section {
+  text-align: center;
+  max-width: 300px;
+  background-color: #f5f5f5; /* Slightly lighter background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight box shadow */
+}
+
+h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004080;
+}
+
+.info-section p,
+.skills-section p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Additional styling for the skills list */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list-item {
+  background-color: #007bff; /* Skill item background color */
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 0.9rem;
+}
+/* Additional styling for the skills list */
+.skills-section {
+  text-align: center;
+  max-width: 300px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list-item {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.skills-list-item:hover {
+  background-color: #0056b3;
+}
+/* Reset some default styles */
+body,
+h1,
+h2,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* General styling for sections */
+.left-pane {
+  flex: 40%;
+  background-color: #f9f9f9;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-pane {
+  flex: 60%;
+  max-width: 600px;
+}
+
+/* Styles for each section */
+.section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+strong {
+  color: #007bff; /* Blue color for strong text */
+}
+
+/* Testimonials styling */
+blockquote {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+cite {
+  display: block;
+  margin-top: 15px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 400px; /* Adjust the width and height as needed */
+  height: 400px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This ensures the image covers the circular frame */
+}

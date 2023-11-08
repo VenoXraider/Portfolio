@@ -1,0 +1,229 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    font-weight: 600;
+  }
+  
+  /* Other CSS rules for your page */
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(145deg, #000000, #06284d, #450961);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: all 0.3s ease; /* Add smooth transition for all properties */
+}
+
+nav ul li:hover {
+    border: 2px;
+    padding: 15px; /* Adjust padding to maintain the same position */
+    background-color: rgba(95, 93, 93, 0.918);
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 2%;
+}
+
+
+.intro {
+    position: absolute;
+    top: 70%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using transform */
+    color: white; 
+    padding: 50px;
+    box-sizing: border-box; /* Include padding in width calculations */
+    text-align: center; /* Center text within .intro */
+    margin-top: 10%;
+}
+.header_content {
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.cta-button:hover{
+    background-color: #fff;
+    color: #000000;
+    border: transparent;
+}
+
+.about {
+    background: linear-gradient(145deg, #000000, #06284d, #450961);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.latest-work {
+    background: linear-gradient(145deg, #000000, #06284d, #450961);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color:#000000;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    position: relative;
+    overflow: hidden; /* Hide overflow for video outside container */
+}
+
+/* Style the video element */
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the video behind other content */
+}
+
+.intro {
+    margin-top: 10%;
+    position: relative; /* Change position to relative to stack content above video */
+    color: white; 
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.header_content {
+    text-align: center;
+    margin-top: 2px;
+}
+
+/* Media query for short screens (adjust the max-width as needed) */
+@media (max-width: 768px) {
+    .header_content {
+        text-align: left;
+        margin-top: 0;
+    }
+}
+
+.latest-work {
+    text-align: center;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.flex-box {
+    flex-basis: calc(33.33% - 20px); /* Adjust the width and spacing as needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.flex-box p {
+    margin-bottom: 10px;
+}
+
+.flex-box a {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .flex-box {
+        flex-basis: calc(50% - 20px);
+    }
+}
+h2 {
+    color:#fff;
+}
+
+.flex-box img {
+    max-width: 100%; /* Ensure the image fits within the .flex-box */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any default inline properties */
+    margin: 0 auto; /* Center the image horizontally */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}

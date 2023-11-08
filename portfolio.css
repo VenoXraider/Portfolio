@@ -1,0 +1,143 @@
+/* Reset some default styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+
+/* Add margin-top to the .about-me section */
+.about-me {
+  max-width: 800px;
+  margin: 20px auto 0; /* Added margin-top to create space between sections */
+  padding: 20px;
+  background-color: #fff; /* Set the background color of the box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Rest of your CSS for .about-me section (e.g., font color, text alignment) */
+
+/* Apply styles to header and sections */
+header {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  background: linear-gradient(145deg, #000000, #06284d, #450961);
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the .portfolio section */
+.portfolio {
+  max-width: 800px;
+  margin: 20px auto; /* Add margin between sections */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Arrange 3 equal-sized flex boxes in one row */
+/* General styling for the flex container */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Styling for each flex box */
+.flex-box {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 0.3s ease-in-out; /* Add a subtle transition effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight box shadow for depth */
+}
+
+/* Styling for images within flex box */
+.flex-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Styling for headings within flex box */
+.flex-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Styling for "Read More" links within flex box */
+/* Styling for each flex box */
+.flex-box {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    transition: transform 0.3s ease-in-out; /* Add a subtle transition effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight box shadow for depth */
+    display: flex;
+    flex-direction: column; /* Ensure flex items stack vertically */
+}
+
+/* Styling for "Read More" links within flex box */
+.flex-box a {
+    margin-top: auto; /* Align the "Read More" link to the bottom of the flex box */
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 5px; /* Adjusted padding for the entire link */
+    border-radius: 5px;
+    display: inline-block; /* Ensures the link respects padding and border-radius */
+    text-align: center;
+}
+
+/* Hover effect on flex boxes */
+.flex-box:hover {
+    transform: translateY(-5px); /* Lift the box slightly on hover */
+}
+
+
+/* Styling for the footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
